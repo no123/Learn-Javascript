@@ -9,7 +9,7 @@
 1. 直接在页面中嵌入Javascript代码。
 
 		 	<html>
-				<header></header>
+				<head></head>
 				<body>
 					<script type="text/javascript">
 						function sayHello(){
@@ -82,6 +82,9 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 
 3. 编写完成后，点击Command Line下方的"Run"，即可看到执行结果。
 !['code in console'](/examples/chapter2/console.jpg) 
+
+### 2.2.3 操作当前浏览器窗口的对象
+
 
 
 
