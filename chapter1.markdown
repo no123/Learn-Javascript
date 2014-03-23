@@ -70,3 +70,9 @@ Host不仅提供基本的ECMAScript实现，同时也会提供该语言的扩展
 
 3. BOM至今没有标准可以遵循， 每个浏览器都有自己的实现。
 
+### 1.3.1 document
+
+	* document是BOM中最重要对象之一。
+	* document对象是window对象的属性。
+	* document对象包含一个节点对象，此对象包含每个单独页面的所有HTML元素。
+
