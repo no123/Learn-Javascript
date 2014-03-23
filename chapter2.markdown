@@ -72,11 +72,12 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 1. 打开浏览器，点击F12，打开Firebug。
 2. 在Command Line内编写如下程序:
 
-	function sayHello(){
-	    alert('Hello');
-	}
+		function sayHello(){
+		    alert('Hello');
+		}
 
-	sayHello();
+		sayHello();
+		
 3. 编写完成后，点击Command Line下方的"Run"，即可看到执行结果。
 !['code in console'](/examples/chapter2/console.jpg) 
 
