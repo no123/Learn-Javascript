@@ -28,7 +28,6 @@
 ECMAScript是由ECMA-262标准化的脚本语言的名称。JavaScript和JScript与ECMAScript相容，但包含超出ECMAScript的功能。
 
 ECMA-262规定了:
-
 	* 语法
 	* 类型
 	* 语句
