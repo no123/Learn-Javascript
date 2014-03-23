@@ -24,7 +24,7 @@
 2. 包含外部的Javascript文件。
 
 			<html>
-				<header></header>
+				<head></head>
 				<body>
 					<script type="text/javascript" src="example1.js"></script>
 				</body>
@@ -81,9 +81,38 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 		sayHello();
 
 3. 编写完成后，点击Command Line下方的"Run"，即可看到执行结果。
+
 !['code in console'](/examples/chapter2/console.jpg) 
 
 ### 2.2.3 操作当前浏览器窗口的对象
+
+为讲解需要，我们先创建一个HTML页面example1.html和一个外部js文件example1.js。
+
+example1.html
+
+	<html>
+		<head>
+			<title>Sample Page</title>
+		<head>
+		<body>
+			<div>Test</div>
+			<script type="text/javascript" src="example1.js"></script>
+		</body>
+	</html>	
+
+example1.js
+
+	function sayHello(){
+		alert('Hello');
+	}
+
+然后我们用FireFox打开example1.html。同时打开Firebug的Command Line。
+
+!['code in console'](/examples/chapter2/work on page.jpg)
+
+
+
+
 
 
 
