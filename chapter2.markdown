@@ -30,7 +30,7 @@
 				</body>
 			</html>
 
-			example1.js：
+	example1.js：
 
 			function sayHello(){
 				alert('Hello');
@@ -68,8 +68,10 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 ### 2.2.2 编写一个简单的Javascript程序
 
 以FireFox的Firebug为例。步骤如下：
+
 1. 打开浏览器，点击F12，打开Firebug。
-2. 在Command Line内编写如下程序
+2. 在Command Line内编写如下程序:
+
 	function sayHello(){
 	    alert('Hello');
 	}
