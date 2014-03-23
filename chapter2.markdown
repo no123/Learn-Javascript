@@ -63,6 +63,7 @@ _Tip:_
 就目前的各大主流浏览器，在已安装工具的前提下，打开浏览器后，点击F12，可以打开浏览器的开发者工具。我们可以在其中的Console（控制台）的Command Line内进行操作.
 
 IE从IE8开始，已经自带开发者工具。IE8以前的IE版本，需要另外单独安装。
+
 FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+Shift+A，打开"Get Add-ons"，搜索Firebug，点击"install"。
 
 ### 2.2.2 编写一个简单的Javascript程序
@@ -70,6 +71,7 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 以FireFox的Firebug为例。步骤如下：
 
 1. 打开浏览器，点击F12，打开Firebug。
+
 2. 在Command Line内编写如下程序:
 
 		function sayHello(){
@@ -77,7 +79,7 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 		}
 
 		sayHello();
-		
+
 3. 编写完成后，点击Command Line下方的"Run"，即可看到执行结果。
 !['code in console'](/examples/chapter2/console.jpg) 
 
