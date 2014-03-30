@@ -84,7 +84,7 @@ FireFox的开发工具叫 Firebug，也需要另外安装。安装方法：Ctrl+
 
 !['code in console'](/examples/chapter2/console.jpg) 
 
-### 2.2.3 操作当前浏览器窗口的对象
+### 2.2.3 我们还可以做什么
 
 为讲解需要，我们先创建一个HTML页面example1.html和一个外部js文件example1.js。
 
@@ -106,13 +106,24 @@ example1.js
 		alert('Hello');
 	}
 
-然后我们用FireFox打开example1.html。同时打开Firebug的Command Line。
+然后我们用FireFox打开example1.html。同时打开Firebug的Command Line（F12）。
 
 !['code in console'](/examples/chapter2/work on page.jpg)
 
+* 调用已经载入的方法。在Command Line输入"SayHello()", 点击"Run"。
+!['code in console'](/examples/chapter2/call func.jpg)
 
+* 覆盖已经载入的方法。在Command Line输入如下代码改变"sayHello"方法, 点击"Run"。跳出窗口的文字由"Hello"变为"Hello World!"。
 
+	function sayHello(){
+	    alert('Hello World!')
+	}
 
+	sayHello();
+
+!['code in console'](/examples/chapter2/rewrite func.jpg)
+
+* 调用浏览器宿主对象window.navigator, window.location等。
 
 
 
