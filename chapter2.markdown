@@ -115,11 +115,11 @@ example1.js
 
 * 覆盖已经载入的方法。在Command Line输入如下代码改变"sayHello"方法, 点击"Run"。跳出窗口的文字由"Hello"变为"Hello World!"。
 
-	function sayHello(){
-	    alert('Hello World!')
-	}
+		function sayHello(){
+		    alert('Hello World!')
+		}
 
-	sayHello();
+		sayHello();
 
 !['code in console'](/examples/chapter2/rewrite func.jpg)
 
